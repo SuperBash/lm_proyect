@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  
+    background: transparent;
+}
+
+:root{
+	--widthPage: 700px;
+}
+
+html,body{
+	height: 100%;
+}
+
+#wrapper{
+	height: 100%;
+	width: var(--widthPage);
+	margin: 0 auto;
+
+}
+
+#view{
+	height: 50%;
+	background-color: grey;
+}
+
+.horiscroll{
+	height: var(--widthPage);
+	overflow: hidden;
+	overflow-y: scroll;
+	white-space: nowrap;
+	background-color: #33ceff;
+	display: block;
+	width: 40%;
+	transform:rotate(-90deg) translateY(-280px);
+	transform-origin:right top;
+}
+
+.item{
+	height: 25%;
+	width: 70%;
+	background-color: blue;
+	display: inline-block;
+	border-radius: 5px;
+	margin-top: 40px;
+	margin-left: 40px;
+	transform:rotate(90deg);
+    display:block;
+}

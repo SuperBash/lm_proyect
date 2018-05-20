@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cursos>
+	<item>
+		<title>Curso de Bash</title>
+		<price>5$/mes</price>
+		<duracion>5 meses</duracion>
+	</item>
+
+	<item>
+		<title>Curso de Java</title>
+		<price>7$/mes</price>
+		<duracion>10 meses</duracion>
+	</item>
+
+	<item>
+		<title>Curso de C++</title>
+		<price>7$/mes</price>
+		<duracion>10 meses</duracion>
+	</item>
+
+	<item>
+		<title>Curso de C#</title>
+		<price>8$/mes</price>
+		<duracion>10 meses</duracion>
+	</item>
+
+	<item>
+		<title>Curso de Python</title>
+		<price>8%/mes</price>
+		<duracion>8 meses</duracion>
+	</item>
+
+</cursos>

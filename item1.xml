@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.zarrapastroso.com/eresidiota">
+<xsl:template match="/principal.xml">
+	<html>
+		<body>
+		<xsl:for-each select="cursos/item[title='Curso de Bash']">
+			<h1>title</h1>
+		</xsl:for-each>
+		</body>
+	</html>
+</xsl:template>
+</xsl:stylesheet>
